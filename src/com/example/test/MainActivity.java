@@ -13,6 +13,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
     }
 
+    
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         
@@ -21,6 +22,8 @@ public class MainActivity extends Activity {
         return true;
     }
 
+    
+    
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
